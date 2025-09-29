@@ -1,0 +1,11 @@
+node_modules/
+dist/
+build/
+.out/
+.next/
+coverage/
+.env
+.venv/
+*.zip
+*.tar
+.DS_Store
