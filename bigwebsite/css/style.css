@@ -1,0 +1,25 @@
+body {
+  width: 2000px;
+  height: 2000px;
+  background-color: #e8f0ff;
+  background-image: linear-gradient(135deg, #f0f9ff 25%, #a1c4fd 100%);
+  font-family: "Arial", sans-serif;
+  color: #333;
+  font-size: 18px;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  color: #1b3b6f;
+  text-decoration: underline;
+  margin: 20px;
+}
+
+.image-section {
+  position: center;
+  top: 1200px;
+  left: 1500px;
+  padding: 10px;
+}
