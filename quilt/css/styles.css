@@ -1,0 +1,46 @@
+* { 
+  margin: 0;  
+}
+
+.quilt {
+width: 100vw; 
+height: 100vh; 
+display: grid;
+grid-template-columns: repeat(5, 1fr); 
+grid-auto-rows: 1fr; 
+gap: 8px; 
+padding: 8px;
+}
+
+.tile {
+  border-radius: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.a {
+  background: #ff6b6b; 
+  border-radius: 0; 
+}
+
+.b {
+  background: #4dabf7; 
+  border-radius: 50%; 
+}
+
+.c {
+  background: #51cf66; 
+  border-radius: 50% / 30%; 
+}
+
+.d {
+  background: #ffd43b; 
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%); 
+}
+
+.e {
+  background: #b197fc; 
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 
+                     50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); 
+}
