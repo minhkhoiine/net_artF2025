@@ -22,15 +22,15 @@ function setBusinessIdentity() {
 
     avatarEmoji.textContent = "💼";
     identityName.textContent = "K. Vu";
-    identityRole.textContent = "Business Analyst · Available 24/7";
+    identityRole.textContent = "Software Engineer · Available 24/7";
     identityDesc.textContent =
-        "I specialize in maximizing productivity and minimizing distractions. " +
-        "Passionate about KPIs, quarterly reports, and inbox zero.";
+        "I specialize in backend development. " +
+        "Passionate about Math, Math, and Math.";
 
     skillsList.innerHTML = `
-        <li>Excel (pivot tables)</li>
-        <li>Professional emails</li>
-        <li>Calendar management</li>
+        <li>Computer Vision</li>
+        <li>Computer Programming</li>
+        <li>Graph Theory</li>
     `;
 
     valuesList.innerHTML = `
@@ -40,9 +40,9 @@ function setBusinessIdentity() {
     `;
 
     hobbiesList.innerHTML = `
-        <li>Networking events</li>
-        <li>Reading business blogs</li>
-        <li>Checking email</li>
+        <li>Soccer</li>
+        <li>Reading math papers</li>
+        <li>Cooking</li>
     `;
 
     transformBtn.textContent = "Reveal True Identity";
