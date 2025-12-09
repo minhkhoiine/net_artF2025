@@ -1,4 +1,4 @@
-/*PAST*/
+/* PAST */
 
 const pastDetail = document.getElementById("pastDetail");
 
@@ -12,7 +12,7 @@ document.querySelectorAll(".memory").forEach(m => {
   });
 });
 
-/*PRESENT*/
+/*PRESENT */
 
 const book = document.getElementById("book");
 const bookLabel = document.getElementById("bookLabel");
@@ -33,7 +33,7 @@ book.addEventListener("click", () => {
   }
 });
 
-/* FUTURE*/
+/*FUTURE*/
 
 const future = document.getElementById("future");
 
