@@ -205,12 +205,12 @@ body {
   height: 55%;
   display: flex;
   align-items: flex-end;
-  gap: 12px;
-  padding: 0 14px 10px;
+  gap: 6px;
+  padding: 0 10px 10px;
 }
 
 .building {
-  width: 36px;
+  width: 26px;
   background: #020617;
   border-radius: 3px 3px 0 0;
   position: relative;
