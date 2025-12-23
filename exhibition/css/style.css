@@ -1,51 +1,56 @@
 body {
-  overflow: hidden;
+  margin: 0;
+  padding: 40px 0;
+  background-color: pink;
+  font-family: Georgia, serif;
+  line-height: 1.5;
 }
 
-.left {
-    width:25%;
-    display:block;
-    float:left;
-    padding-left:30px;
-  }
-  
-  .right {
-    width:70%;
-    display:block;
-    float:right;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    height:100vh;
-  }
-  
-  img {
-    width:100%;
-  }
-  
-  @media screen and (max-width: 992px) {
-    .left {
-      width:60%;
-      float:none;
-      margin:0 auto;
-      text-align:center;
-      padding:0px;
-    }
-    .right {
-      width:80%;
-      text-align:center;
-      float:none;
-      margin:0 auto;
-      overflow-y:hidden;
-      overflow-x:hidden;
-      height:auto;
-    }
-  }
-  
-  @media screen and (max-width: 576px) {
-    .left {
-      width:100%;
-    }
-    .right {
-      width:100%;
-    }
-  }
+/* Intro text */
+.titlestuff {
+  max-width: 900px;
+  margin: 0 auto 60px auto;
+  padding: 0 20px;
+}
+
+/* Gallery wrapper */
+.gallery {
+  text-align: center; /* center figure inline-block */
+}
+
+/* Artwork block */
+.artwork {
+  display: inline-block;  
+  max-width: 900px;
+  width: 100%;
+  margin: 40px auto;
+  text-align: left;
+}
+
+/* Image */
+.artwork img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Caption */
+.artwork figcaption {
+  margin-top: 12px;
+  font-size: 0.9rem;
+  color: #222;
+}
+
+.artwork figcaption p {
+  margin: 6px 0;
+}
+
+.artwork figcaption a {
+  font-size: 0.8rem;
+  color: #333;
+  text-decoration: none;
+}
+
+.artwork figcaption a:hover {
+  text-decoration: underline;
+}
